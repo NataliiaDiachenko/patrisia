@@ -141,6 +141,11 @@ nav li.active a {
   color: var(--branding-color);
 }
 
+.img-fluid {
+  width: 340px;
+  border-radius: 8px;
+}
+
 footer {
   margin: 60px 0;
 }
