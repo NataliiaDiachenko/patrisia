@@ -141,7 +141,7 @@ nav li.active a {
   color: var(--branding-color);
 }
 
-.img-fluid {
+.photo {
   width: 340px;
   border-radius: 8px;
 }
