@@ -2,102 +2,104 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nataliia's Diachenko works" />
   <title>Nataliia Diachenko Portfolio</title>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-    crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/ddc3ee268a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
-  <div class="container">
-    <nav class="d-flex justify-content-between">
-      <a href="/index.html" title="Homepage">
-        <img src="images/logo.png" class="logo d-none d-md-block" alt="Nataliia Diachenko  Logo" />
-        <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="Nataliia Diachenko Logo" />
-      </a>
-      <ul>
+
+  <div class="header-container header-contact">
+    <nav class="header-nav">
+      <ul class="header-menu-list">
         <li>
-          <a href="/index.html" title="Homepage"> Home</a>
-        </li>
-        <li>
-          <a href="/about.html" title="About Nataliia Diachenko"> About</a>
+          <a href="/about.html" title="About Nataliia Diachenko">About</a>
         </li>
         <li class="active">
-          <a href="/work.html" title="Nataliia`s Diachenko work"> Work</a>
+          <a href="#" title="Nataliia's Diachenko work">Work</a>
         </li>
         <li>
-          <a href="/contact.html" title="Contact Nataliia Diachenko"> Contact</a>
+          <a href="certificates.html" title="Contact Nataliia Diachenko">Certificates</a>
+        </li>
+        <li>
+          <a href="/contact.html" title="Contact Nataliia Diachenko">Contact</a>
         </li>
       </ul>
     </nav>
   </div>
-  <div class="content-container container">
-    <div class="content">
-      <h1 class="mb-5">Take a look at what I've been working on!</h1>
 
-      <div class="row">
-        <div class="col-md-6 mb-4">
-          <img src="images/yogurt.png" class="img-fluid mb-3 rounded" alt="Yogurt project preview" />
-          <h3 class="text-center m-0">Yogurt Landing Page</h3>
-          <p class="text-center text-muted">
-            Built with HTML, CSS, and JavaScript
-          </p>
-        </div>
-        <div class="col-md-6 mb-4">
-          <img src="images/weather.png" class="img-fluid mb-3 rounded" alt="Weather project preview" />
-          <h3 class="text-center m-0">Weather App</h3>
-          <p class="text-center text-muted">
-            Built using HTML, an active API, and advanced CSS and JavaScript
-          </p>
-        </div>
-        <div class="col-md-6 mb-4">
-          <img src="images/dictionary.png" class="img-fluid mb-3 rounded" alt="Disctionary project preview" />
-          <h3 class="text-center m-0">Dictionary App</h3>
-          <p class="text-center text-muted">
-            Built using HTML, an active API, advanced CSS, and React
-          </p>
-        </div>
-        <div class="col-md-6 mb-4">
-          <img src="images/translation.png" class="img-fluid mb-3 rounded" alt="Translation project preview" />
-          <h3 class="text-center m-0">Translation App</h3>
-          <p class="text-center text-muted">
-            Built using HTML, an active API, advanced CSS, and React
-          </p>
+  <main>
+    <div class="work">
+      <div class="work-content">
+        <h1>Take a look at what I've been working on!</h1>
+
+        <div class="work-block">
+          <div class="work-block-img">
+            <img src="images/yogurt.png" class="work-img" alt="Yogurt project preview" />
+            <h3>Yogurt Landing Page</h3>
+            <p>
+              Built with HTML, CSS, and JavaScript
+            </p>
+          </div>
+          <div class="work-block-img">
+            <a href="https://nataliiadiachenko.github.io/festuval_peremogu_ukraine/"><img src="images/ukraine.png"
+                class="work-img" alt="Weather project preview" /></a>
+            <h3>Victory Festival of Ukraine</h3>
+            <p>
+              Built using HTML, an active API, and advanced CSS and JavaScript
+            </p>
+          </div>
+          <div class="work-block-img">
+            <a href="https://serene-fenglisu-76e05c.netlify.app/"><img src="images/forbusiness.jpg" class="work-img"
+                alt="Disctionary project preview" /></a>
+            <h3>Portfolio for web studio</h3>
+            <p>
+              Built using HTML, an active API, advanced CSS, and React
+            </p>
+          </div>
+          <div class="work-block-img">
+            <img src="images/translation.png" class="work-img" alt="Translation project preview" />
+            <h3>Translation App</h3>
+            <p>
+              Built using HTML, an active API, advanced CSS, and React
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <footer class="container">
-    <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+
+  </main>
+
+
+
+  <footer>
+    <div class="contact-box">
       <div>
         <h3>Work Inquiry</h3>
-        <p class="text-muted">Let's work together</p>
+        <p class="contact-box-text">Let's work together</p>
       </div>
       <div>
-        <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Nataliia Diachenko">
+        <a href="/contact.html" class="contact-btn" title="Contact Nataliia Diachenko">
           Contact me
         </a>
       </div>
     </div>
-    <div class="d-flex justify-content-center mb-5">
+
+    <div class="contact">
       <a href="mailto:n.djachenko17@gmail.com" class="email-link" title="Email Nataliia Diachenko">
         n.djachenko17@gmail.com
       </a>
     </div>
-    <div class="social-links d-flex justify-content-center">
+    <div class="social-links">
       <a href="https://github.com/NataliiaDiachenko" target="_blank" title="GitHub Profile">
         <i class="fab fa-github"></i>
       </a>
@@ -106,12 +108,13 @@
       </a>
 
     </div>
-    <p class="text-center mt-5">
+    <p class="contact-text">
       ✌️ This website was coded by Nataliia Diachenko, and is
       <a href="https://github.com/NataliiaDiachenko/patrisia" target="_blank">
         open-sourced
       </a>
     </p>
+
   </footer>
 </body>
 
